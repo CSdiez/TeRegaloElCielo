@@ -30,7 +30,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-.login{
+.register{
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -38,24 +38,23 @@ main{
     align-items: center;
     margin-bottom: 60px;
 }
-.login a{
+.register a{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.login a img{ 
+.register a img{ 
     width: 75%;
     margin-bottom: 20px;
 }
-.login form{
+.register form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.login form input{
-    cursor: pointer;
+.register form input{
     background-color: #0000008c;
     border-radius: 10px;
     border: 0;
@@ -63,6 +62,7 @@ main{
     margin-top: 10px;
     color: var(--white);
     padding-right: 20px;
+    cursor: pointer;
 }
 input::placeholder {
     color: #b8b8b8;
@@ -87,7 +87,7 @@ input::placeholder {
     background-repeat: no-repeat;
     background-position: 10px center;
 }
-.login form input::-webkit-input-placeholder{
+.register form input::-webkit-input-placeholder{
     padding: 10px;
 }
 .btn{
@@ -108,35 +108,25 @@ input::placeholder {
 .btn a:hover{
     color: var(--black);
     background-color: #b8b8b8;
-}   
-
-.login a{
+}     
+.register a{
     font-family: 'Jost', sans-serif;
     color: #b8b8b8;
     text-decoration: none;
-
-}
-.remember label{
-    font-family: 'Jost', sans-serif;
-    color: #b8b8b8;
-    cursor: pointer;
-}
-.remember{
-    margin-bottom: 10px;
 }
 
 @media all and (max-width: 900px){
 
 
-    .login a{
+    .register a{
         width: 200px;
     }
-    .login input{
+    .register input{
         padding: 30px 40px;
     }
 }
 @media all and (max-width: 400px){
-    .login{
+    .register{
         width: 100px;
     }
 }
